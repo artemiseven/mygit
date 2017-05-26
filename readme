@@ -11,4 +11,16 @@ hello git
 6, git log --pretty=oneline
    git reflog >查看git对仓库做了哪些操作
 7, stage works
-8,  
+8, 删除一个文件后如果是误删
+   git checkout filename
+   如果的确要删掉
+   git rm filename
+
+9, add ssh for github or remote storage
+   ssh-keygen -t rsa -C "644618040@qq.com" 
+
+10, git 本地仓库推送到远程
+    a. 创建ssh，在github上添加本地公钥
+    b. github上创建仓库，将远程仓库地址复杂
+    c. git remote add origin https://github/artemiseven/xx
+    d. git push -u origin master 第一次提交一般加-u
