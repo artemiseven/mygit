@@ -3,4 +3,10 @@ hello git
 2, git add filename 
 3, git commit -m "what i do"
 4, git diff filename
-5, git reset
+5, git reset --hard HEAD^ 》git HEAD回退上一次commit
+   git reset --hard commit 》 git 回退到某个commit值
+   ！！reset操作前的修改会被冲掉
+
+6, git log --pretty=oneline
+   git reflog >查看git对仓库做了哪些操作
+7, stage works
