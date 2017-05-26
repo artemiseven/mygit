@@ -6,8 +6,9 @@ hello git
 5, git reset --hard HEAD^ 》git HEAD回退上一次commit
    git reset --hard commit 》 git 回退到某个commit值
    ！！reset操作前的修改会被冲掉
+   git reset HEAD file > 将add后的文件重新退到工作区状态
 
 6, git log --pretty=oneline
    git reflog >查看git对仓库做了哪些操作
 7, stage works
-8, tmp
+8,  
