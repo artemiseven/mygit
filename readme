@@ -44,3 +44,7 @@ hello git
 13, git merge 出现conflict时
     a. git 用<<<<<<< ======== >>>>>>> 标记出不同分支内容
     b. 打开有冲突的文件,修改冲突,重新add 和commit
+    c. 查看分支合并情况 git log --graph --pretty=oneline --abbrev-commit
+    d. 删除之前分支 git branch -d feature
+
+
