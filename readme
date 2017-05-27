@@ -50,5 +50,4 @@ hello git
 14, git merge --no-ff -m "merge with no-fast forward"
     这样做在log上就可以看到曾经做过合并而fast  forward合并则看不出曾经做过合并
 
-15, test tmp info 
-
+15, now i fix the bug
