@@ -47,4 +47,6 @@ hello git
     c. 查看分支合并情况 git log --graph --pretty=oneline --abbrev-commit
     d. 删除之前分支 git branch -d feature
 
+14, git merge --no-ff -m "merge with no-fast forward"
+    这样做在log上就可以看到曾经做过合并而fast  forward合并则看不出曾经做过合并
 
