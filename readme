@@ -30,3 +30,5 @@ hello git
     git支持多种协议,默认使用git://使用ssh,但是一些开放http端口的公司内部无法使用ssh,只能用https,https速度较慢,每次推送需要输入口令.
 
 12, git checkout -b dev >新建一个分支
+
+13, creating anew branch is quick & simple
