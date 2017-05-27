@@ -29,6 +29,18 @@ hello git
 11, ssh and https
     git支持多种协议,默认使用git://使用ssh,但是一些开放http端口的公司内部无法使用ssh,只能用https,https速度较慢,每次推送需要输入口令.
 
-12, git checkout -b dev >新建一个分支
 
 13, creating anew branch is quick & simple
+12, 新建分支工作
+    a. 先git checkout -b dev,将当前分支复制作为一个新分支
+    b. 在dev分支上修改后提交,再切回master
+    c. git merge dev 合并
+    d. git branch -d dev 将临时分支删除
+    e. 其他 git branch          - 查看分支
+            git branch <name>   - 创建分支
+	    git checkout <name> - 切换分支
+	    git branch -d       - 删除分支
+
+13, git merge 出现conflict时
+    a. git 用<<<<<<< ======== >>>>>>> 标记出不同分支内容
+    b. 打开有冲突的文件,修改冲突,重新add 和commit
