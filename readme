@@ -51,3 +51,9 @@ hello git
     这样做在log上就可以看到曾经做过合并而fast  forward合并则看不出曾经做过合并
 
 15, now i fix the bug
+15, git stash 可以把当前工作现场"储藏"起来,等以后恢复现场后继续工作
+    a.git stash list 可以查看stash 列表
+    b.恢复可以用git stash apply ,但是恢复后stash的内容不会删除,需要删除用git stash drop
+    c.git stash pop 恢复的同时会把stash中记录也一起删除
+    d.多次git stash 时,会有多个记录在git stash list 中,用git stash apply stash@{xx}来恢复
+
