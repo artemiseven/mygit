@@ -65,16 +65,24 @@ hello git
     每次修改前最好先pull一下,一般有冲突时,需要手动解决,之后再本地修改提交后再
     git push origin dev
     
+17, git tag > tag是随着commit存在的
+    git tag v1.0 > 默认当前分支最新一次commit上打上tag
+    git tag v0.9 <commit id>  在commit上打标签
+    git tag  查看标签,标签不是按时间列出而是按字母排序
+    git show <tagname> 查看标签信息
+    git tag -a v1.2 -m "稳定版本" 23243safd  
+    -a 表示标签名  -m 标签说明    <commit id>
+    git tag -s <tagname> -m "pgp 密钥签名的tag"
 
 
 
 
 
-
+ 
 
 
 
 
 
     
-17, add new function
+
