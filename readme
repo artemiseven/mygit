@@ -58,5 +58,23 @@ hello git
 
 16, git remote -v > 查看远程仓库信息 ,如果没有push权限是看不到push地址
     git push origin dev 将本地内容推送到远程仓库
+    第一次提交修改push时需要指定本地分支和远程分支链接 
+    报错 no tracking information 
+    git branch --set-upstream dev origin/dev
+    
+    每次修改前最好先pull一下,一般有冲突时,需要手动解决,之后再本地修改提交后再
+    git push origin dev
+    
 
+
+
+
+
+
+
+
+
+
+
+    
 17, add new function
